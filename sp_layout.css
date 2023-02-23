@@ -63,13 +63,13 @@ nav.horizontal li{ /*all decendentals within horizontal list*/
 /* Section Styles */
 section img {
    width:50%;
-   margin-top: 0;
-   margin-bottom:0;
-   margin-left:auto;
-   margin-right:auto;
+   margin: 0 auto 0 auto; /* top, right, bottom, left*/
 }
 
-
+section p{
+   width: 70%;
+   margin: 0 auto 0 auto;
+}
 
 /* Customer Comment Styles */
 
