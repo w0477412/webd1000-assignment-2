@@ -14,8 +14,21 @@
 */
 
 /* Window and Body Styles */
+html {
+   height: 100%;
+}
 
+body{
+   width: 95%;
+   min-width: 640px;
+   max-width: 960px;
+   margin-left: auto; /*align body to center*/
+   margin-right:auto; /*align body to center*/
+   min-height: 100%;
+}
 
+*img{
+}
 
 
 /* CSS Grid Styles */
