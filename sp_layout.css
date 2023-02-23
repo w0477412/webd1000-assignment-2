@@ -27,12 +27,16 @@ body{
    min-height: 100%;
 }
 
-*img{
+img{
+   display: block;
 }
 
 
 /* CSS Grid Styles */
-
+body{
+   display: grid;
+   grid-template-columns: 25% 25% 25% 25%;
+}
 
 
 
